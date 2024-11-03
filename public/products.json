@@ -1,0 +1,376 @@
+[
+  {
+    "id": 1,
+    "product_title": "Apple iPhone 15 Pro Max",
+    "product_image": "https://example.com/iphone15promax.jpg",
+    "category": "Smartphones",
+    "price": 1299,
+    "description": "Experience the ultimate smartphone with the iPhone 15 Pro Max.",
+    "specification": [
+      "6.7-inch Super Retina XDR display",
+      "A17 Bionic chip",
+      "Triple-camera system (48MP Main, 12MP Telephoto, 12MP Ultrawide)",
+      "LiDAR Scanner",
+      "Up to 2TB storage"
+    ],
+    "availability": true,
+    "rating": 4.8
+  },
+  {
+    "id": 2,
+    "product_title": "Samsung Galaxy S23 Ultra",
+    "product_image": "https://example.com/galaxys23ultra.jpg",
+    "category": "Smartphones",
+    "price": 1199,
+    "description": "Samsung's flagship smartphone with a powerful camera and processor.",
+    "specification": [
+      "6.8-inch Dynamic AMOLED 2X display",
+      "Snapdragon 8 Gen 2 processor",
+      "200MP quad-camera system",
+      "S Pen support",
+      "Up to 1TB storage"
+    ],
+    "availability": true,
+    "rating": 4.7
+  },
+  {
+    "id": 3,
+    "product_title": "Google Pixel 8 Pro",
+    "product_image": "https://example.com/pixel8pro.jpg",
+    "category": "Smartphones",
+    "price": 899,
+    "description": "Google's advanced smartphone with enhanced AI capabilities.",
+    "specification": [
+      "6.7-inch LTPO OLED display",
+      "Google Tensor G3 chip",
+      "Triple-camera system (50MP Main, 48MP Telephoto, 12MP Ultrawide)",
+      "Magic Eraser",
+      "Up to 512GB storage"
+    ],
+    "availability": true,
+    "rating": 4.6
+  },
+  {
+    "id": 4,
+    "product_title": "OnePlus 11",
+    "product_image": "https://example.com/oneplus11.jpg",
+    "category": "Smartphones",
+    "price": 699,
+    "description": "High-performance smartphone with fluid display.",
+    "specification": [
+      "6.7-inch QHD+ AMOLED display",
+      "Snapdragon 8 Gen 2 processor",
+      "Hasselblad triple-camera system",
+      "80W SuperVOOC charging",
+      "Up to 256GB storage"
+    ],
+    "availability": true,
+    "rating": 4.5
+  },
+  {
+    "id": 5,
+    "product_title": "Xiaomi Mi 13",
+    "product_image": "https://example.com/mi13.jpg",
+    "category": "Smartphones",
+    "price": 549,
+    "description": "Affordable flagship smartphone with stunning camera.",
+    "specification": [
+      "6.5-inch OLED display",
+      "Snapdragon 7 Gen 1 processor",
+      "108MP main camera",
+      "Fast charging",
+      "Up to 128GB storage"
+    ],
+    "availability": true,
+    "rating": 4.3
+  },
+  {
+    "id": 6,
+    "product_title": "Sony Xperia 1 V",
+    "product_image": "https://example.com/xperia1v.jpg",
+    "category": "Smartphones",
+    "price": 999,
+    "description": "Sony's flagship with impressive display and pro camera features.",
+    "specification": [
+      "6.5-inch 4K OLED display",
+      "Snapdragon 8 Gen 2 processor",
+      "Triple-camera system with ZEISS optics",
+      "High-resolution audio",
+      "Up to 512GB storage"
+    ],
+    "availability": false,
+    "rating": 4.4
+  },
+  {
+    "id": 7,
+    "product_title": "Dell XPS 13",
+    "product_image": "https://example.com/dellxps13.jpg",
+    "category": "Laptops",
+    "price": 999,
+    "description": "Ultra-slim and powerful laptop for everyday productivity.",
+    "specification": [
+      "13.4-inch FHD+ display",
+      "Intel Core i7 processor",
+      "16GB RAM",
+      "512GB SSD",
+      "Intel Iris Xe Graphics"
+    ],
+    "availability": true,
+    "rating": 4.5
+  },
+  {
+    "id": 8,
+    "product_title": "MacBook Pro 16-inch",
+    "product_image": "https://example.com/macbookpro16.jpg",
+    "category": "Laptops",
+    "price": 2499,
+    "description": "Apple's powerful laptop for professionals.",
+    "specification": [
+      "16-inch Retina display",
+      "M2 Pro chip",
+      "32GB RAM",
+      "1TB SSD",
+      "Up to 21-hour battery life"
+    ],
+    "availability": true,
+    "rating": 4.9
+  },
+  {
+    "id": 9,
+    "product_title": "HP Spectre x360",
+    "product_image": "https://example.com/spectrex360.jpg",
+    "category": "Laptops",
+    "price": 1299,
+    "description": "Versatile laptop with a 2-in-1 design.",
+    "specification": [
+      "13.5-inch OLED touch display",
+      "Intel Core i7 processor",
+      "16GB RAM",
+      "512GB SSD",
+      "360-degree hinge"
+    ],
+    "availability": false,
+    "rating": 4.6
+  },
+  {
+    "id": 10,
+    "product_title": "Lenovo ThinkPad X1 Carbon",
+    "product_image": "https://example.com/thinkpadx1carbon.jpg",
+    "category": "Laptops",
+    "price": 1799,
+    "description": "Lightweight and durable business laptop.",
+    "specification": [
+      "14-inch FHD display",
+      "Intel Core i7 processor",
+      "16GB RAM",
+      "1TB SSD",
+      "Fingerprint reader"
+    ],
+    "availability": true,
+    "rating": 4.7
+  },
+  {
+    "id": 11,
+    "product_title": "Sony WH-1000XM5",
+    "product_image": "https://example.com/wh1000xm5.jpg",
+    "category": "Headphones",
+    "price": 399,
+    "description": "Industry-leading noise-canceling headphones with superb sound quality.",
+    "specification": [
+      "40mm driver unit",
+      "Adaptive Sound Control",
+      "30-hour battery life",
+      "Bluetooth 5.2",
+      "Touch controls"
+    ],
+    "availability": true,
+    "rating": 4.6
+  },
+  {
+    "id": 12,
+    "product_title": "Bose QuietComfort 45",
+    "product_image": "https://example.com/qc45.jpg",
+    "category": "Headphones",
+    "price": 329,
+    "description": "Comfortable headphones with powerful noise cancellation.",
+    "specification": [
+      "TriPort acoustic architecture",
+      "Active noise cancellation",
+      "24-hour battery life",
+      "Bluetooth 5.1",
+      "Lightweight design"
+    ],
+    "availability": true,
+    "rating": 4.5
+  },
+  {
+    "id": 13,
+    "product_title": "Apple AirPods Max",
+    "product_image": "https://example.com/airpodsmax.jpg",
+    "category": "Headphones",
+    "price": 549,
+    "description": "Premium headphones with spatial audio support.",
+    "specification": [
+      "High-fidelity audio",
+      "Active noise cancellation",
+      "20-hour battery life",
+      "Apple H1 chip",
+      "Memory foam ear cushions"
+    ],
+    "availability": false,
+    "rating": 4.7
+  },
+  {
+    "id": 14,
+    "product_title": "Jabra Elite 85h",
+    "product_image": "https://example.com/elite85h.jpg",
+    "category": "Headphones",
+    "price": 249,
+    "description": "Smart noise-canceling headphones with custom sound profiles.",
+    "specification": [
+      "8-microphone call technology",
+      "36-hour battery life",
+      "Rain-resistant",
+      "SmartSound technology",
+      "Bluetooth 5.0"
+    ],
+    "availability": true,
+    "rating": 4.4
+  },
+  {
+    "id": 15,
+    "product_title": "Asus ZenBook 14",
+    "product_image": "https://example.com/zenbook14.jpg",
+    "category": "Laptops",
+    "price": 799,
+    "description": "Sleek and portable laptop with a powerful processor.",
+    "specification": [
+      "14-inch FHD display",
+      "AMD Ryzen 7 processor",
+      "16GB RAM",
+      "512GB SSD",
+      "NanoEdge display"
+    ],
+    "availability": true,
+    "rating": 4.6
+  },
+  {
+    "id": 16,
+    "product_title": "Microsoft Surface Laptop 5",
+    "product_image": "https://example.com/surfacelaptop5.jpg",
+    "category": "Laptops",
+    "price": 1499,
+    "description": "Stylish and lightweight laptop with a vibrant display.",
+    "specification": [
+      "13.5-inch PixelSense display",
+      "Intel Core i5 processor",
+      "8GB RAM",
+      "256GB SSD",
+      "Windows 11"
+    ],
+    "availability": false,
+    "rating": 4.3
+  },
+  {
+    "id": 17,
+    "product_title": "Huawei MateBook X Pro",
+    "product_image": "https://example.com/matebookxpro.jpg",
+    "category": "Laptops",
+    "price": 1199,
+    "description": "High-performance laptop with a stunning display.",
+    "specification": [
+      "13.9-inch 3K FullView display",
+      "Intel Core i7 processor",
+      "16GB RAM",
+      "512GB SSD",
+      "Aluminum body"
+    ],
+    "availability": true,
+    "rating": 4.7
+  },
+  {
+    "id": 18,
+    "product_title": "Samsung Galaxy Buds Pro",
+    "product_image": "https://example.com/galaxybudspro.jpg",
+    "category": "Headphones",
+    "price": 199,
+    "description": "High-quality earbuds with active noise cancellation.",
+    "specification": [
+      "11mm woofer and 6.5mm tweeter",
+      "Active noise cancellation",
+      "IPX7 water resistance",
+      "Bluetooth 5.0",
+      "Up to 18-hour battery life with case"
+    ],
+    "availability": true,
+    "rating": 4.5
+  },
+  {
+    "id": 19,
+    "product_title": "Sony WF-1000XM4",
+    "product_image": "https://example.com/wf1000xm4.jpg",
+    "category": "Headphones",
+    "price": 279,
+    "description": "Noise-canceling wireless earbuds with exceptional sound quality.",
+    "specification": [
+      "V1 Integrated Processor",
+      "Noise-canceling technology",
+      "8-hour battery life per charge",
+      "Bluetooth 5.2",
+      "IPX4 water resistance"
+    ],
+    "availability": false,
+    "rating": 4.8
+  },
+  {
+    "id": 20,
+    "product_title": "Google Pixel Buds A-Series",
+    "product_image": "https://example.com/pixelbudsa.jpg",
+    "category": "Headphones",
+    "price": 99,
+    "description": "Affordable wireless earbuds with clear sound and a comfortable fit.",
+    "specification": [
+      "12mm dynamic speaker",
+      "Adaptive Sound",
+      "IPX4 water resistance",
+      "Bluetooth 5.0",
+      "Up to 24-hour battery life with case"
+    ],
+    "availability": true,
+    "rating": 4.2
+  },
+  {
+    "id": 21,
+    "product_title": "HP Envy 15",
+    "product_image": "https://example.com/envy15.jpg",
+    "category": "Laptops",
+    "price": 1399,
+    "description": "Powerful laptop with impressive graphics capabilities.",
+    "specification": [
+      "15.6-inch FHD display",
+      "Intel Core i7 processor",
+      "16GB RAM",
+      "512GB SSD",
+      "NVIDIA GeForce GTX 1650 Ti"
+    ],
+    "availability": true,
+    "rating": 4.6
+  },
+  {
+    "id": 22,
+    "product_title": "Razer Blade 15",
+    "product_image": "https://example.com/razerblade15.jpg",
+    "category": "Laptops",
+    "price": 1999,
+    "description": "High-performance gaming laptop with advanced graphics.",
+    "specification": [
+      "15.6-inch FHD display",
+      "Intel Core i7 processor",
+      "16GB RAM",
+      "512GB SSD",
+      "NVIDIA GeForce RTX 3060"
+    ],
+    "availability": true,
+    "rating": 4.8
+  }
+]
