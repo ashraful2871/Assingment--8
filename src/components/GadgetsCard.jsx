@@ -4,7 +4,6 @@ import { useEffect, useState } from "react";
 
 const GadgetsCard = () => {
   const gadgetData = useLoaderData();
-  console.log(gadgetData);
   const { category } = useParams();
   const [gadget, setGadget] = useState([]);
 

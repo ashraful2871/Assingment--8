@@ -8,7 +8,7 @@ const Card = ({ gadget }) => {
       <div className="card card-compact bg-base-100  shadow-xl border-2 p-5">
         <figure className=" h-56">
           <img
-            className="w-full  h-full object-cover"
+            className="w-full  h-full object-cover rounded-xl"
             src={product_image}
             alt="Shoes"
           />

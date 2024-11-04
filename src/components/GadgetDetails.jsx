@@ -3,17 +3,24 @@ import { CiStar } from "react-icons/ci";
 import { FaRegHeart } from "react-icons/fa";
 import { IoMdCart } from "react-icons/io";
 import { useLoaderData, useParams } from "react-router-dom";
+import { addCarts, getAllCarts } from "../utility";
 
 const GadgetDetails = () => {
   const { id } = useParams();
   const gadgetData = useLoaderData();
   const [gadget, setGadget] = useState({});
+  const [isCart, setIsCart] = useState(false);
 
   useEffect(() => {
     const singleGadget = gadgetData.find(
       (gadget) => gadget.id === parseInt(id)
     );
     setGadget(singleGadget);
+    const cart = getAllCarts();
+    const isExist = cart.find((item) => item.id == singleGadget.id);
+    if (isExist) {
+      setIsCart(true);
+    }
   }, [gadgetData, id]);
   const {
     product_title,
@@ -24,6 +31,11 @@ const GadgetDetails = () => {
     specification,
     rating,
   } = gadget;
+
+  const handleCart = (gadget) => {
+    addCarts(gadget);
+    setIsCart(true);
+  };
 
   return (
     <div className="bg-[#ECECEC] h-[880px]">
@@ -103,7 +115,11 @@ const GadgetDetails = () => {
                 />
                 <span className="ml-2">{rating}</span>
               </div>
-              <div className="mt-5 flex gap-7">
+              <div
+                onClick={() => handleCart(gadget)}
+                disabled={isCart}
+                className="mt-5 flex gap-7"
+              >
                 <button className="btn font-bold text-lg bg-[#9538E2] text-white hover:bg-[#9538E2] rounded-full">
                   Add to Card{" "}
                   <span className="text-2xl">
