@@ -2,7 +2,7 @@
   {
     "id": 1,
     "product_title": "Apple iPhone 15 Pro Max",
-    "product_image": "https://example.com/iphone15promax.jpg",
+    "product_image": "https://i.ibb.co.com/yfdf3h6/Apple-i-Phone-15-Pro-Max-Blue-Titanium-Price-in-Bangladesh.webp",
     "category": "Smartphones",
     "price": 1299,
     "description": "Experience the ultimate smartphone with the iPhone 15 Pro Max.",
@@ -19,7 +19,7 @@
   {
     "id": 2,
     "product_title": "Samsung Galaxy S23 Ultra",
-    "product_image": "https://example.com/galaxys23ultra.jpg",
+    "product_image": "https://i.ibb.co.com/t8wmTVj/galaxy-s23-ultra-highlights-kv.jpg",
     "category": "Smartphones",
     "price": 1199,
     "description": "Samsung's flagship smartphone with a powerful camera and processor.",
@@ -36,7 +36,7 @@
   {
     "id": 3,
     "product_title": "Google Pixel 8 Pro",
-    "product_image": "https://example.com/pixel8pro.jpg",
+    "product_image": "https://i.ibb.co.com/2s3nrjX/pixel-8-pro.jpg",
     "category": "Smartphones",
     "price": 899,
     "description": "Google's advanced smartphone with enhanced AI capabilities.",
@@ -53,7 +53,7 @@
   {
     "id": 4,
     "product_title": "OnePlus 11",
-    "product_image": "https://example.com/oneplus11.jpg",
+    "product_image": "https://i.ibb.co.com/4W0TRLQ/one-plus-11.jpg",
     "category": "Smartphones",
     "price": 699,
     "description": "High-performance smartphone with fluid display.",
@@ -70,7 +70,7 @@
   {
     "id": 5,
     "product_title": "Xiaomi Mi 13",
-    "product_image": "https://example.com/mi13.jpg",
+    "product_image": "https://i.ibb.co.com/1KvrdzT/Xiaomi-Mi-13.jpg",
     "category": "Smartphones",
     "price": 549,
     "description": "Affordable flagship smartphone with stunning camera.",
@@ -87,7 +87,7 @@
   {
     "id": 6,
     "product_title": "Sony Xperia 1 V",
-    "product_image": "https://example.com/xperia1v.jpg",
+    "product_image": "https://i.ibb.co.com/RDBdJzm/Sony-Xperia-1-V.jpg",
     "category": "Smartphones",
     "price": 999,
     "description": "Sony's flagship with impressive display and pro camera features.",
@@ -104,7 +104,7 @@
   {
     "id": 7,
     "product_title": "Dell XPS 13",
-    "product_image": "https://example.com/dellxps13.jpg",
+    "product_image": "https://i.ibb.co.com/Yd0D6zm/Dell-XPS-13.webp",
     "category": "Laptops",
     "price": 999,
     "description": "Ultra-slim and powerful laptop for everyday productivity.",
@@ -121,7 +121,7 @@
   {
     "id": 8,
     "product_title": "MacBook Pro 16-inch",
-    "product_image": "https://example.com/macbookpro16.jpg",
+    "product_image": "https://i.ibb.co.com/yXGKH5w/Mac-Book-Pro-16-inch.jpg",
     "category": "Laptops",
     "price": 2499,
     "description": "Apple's powerful laptop for professionals.",
@@ -138,7 +138,7 @@
   {
     "id": 9,
     "product_title": "HP Spectre x360",
-    "product_image": "https://example.com/spectrex360.jpg",
+    "product_image": "https://i.ibb.co.com/HhWs0Bp/HP-Spectre-x360.jpg",
     "category": "Laptops",
     "price": 1299,
     "description": "Versatile laptop with a 2-in-1 design.",
@@ -155,7 +155,7 @@
   {
     "id": 10,
     "product_title": "Lenovo ThinkPad X1 Carbon",
-    "product_image": "https://example.com/thinkpadx1carbon.jpg",
+    "product_image": "https://i.ibb.co.com/7nffkp1/Lenovo-Think-Pad-X1-Carbon.jpg",
     "category": "Laptops",
     "price": 1799,
     "description": "Lightweight and durable business laptop.",
@@ -172,7 +172,7 @@
   {
     "id": 11,
     "product_title": "Sony WH-1000XM5",
-    "product_image": "https://example.com/wh1000xm5.jpg",
+    "product_image": "https://i.ibb.co.com/jh3QBxZ/Sony-WH-1000-XM5.jpg",
     "category": "Headphones",
     "price": 399,
     "description": "Industry-leading noise-canceling headphones with superb sound quality.",
@@ -189,7 +189,7 @@
   {
     "id": 12,
     "product_title": "Bose QuietComfort 45",
-    "product_image": "https://example.com/qc45.jpg",
+    "product_image": "https://i.ibb.co.com/h9j6m32/Bose-Quiet-Comfort-45.webp",
     "category": "Headphones",
     "price": 329,
     "description": "Comfortable headphones with powerful noise cancellation.",
@@ -206,7 +206,7 @@
   {
     "id": 13,
     "product_title": "Apple AirPods Max",
-    "product_image": "https://example.com/airpodsmax.jpg",
+    "product_image": "https://i.ibb.co.com/kQHsYsb/Apple-Air-Pods-Max.jpg",
     "category": "Headphones",
     "price": 549,
     "description": "Premium headphones with spatial audio support.",
@@ -223,7 +223,7 @@
   {
     "id": 14,
     "product_title": "Jabra Elite 85h",
-    "product_image": "https://example.com/elite85h.jpg",
+    "product_image": "https://i.ibb.co.com/rMdbtMf/Jabra-Elite-85h.webp",
     "category": "Headphones",
     "price": 249,
     "description": "Smart noise-canceling headphones with custom sound profiles.",
@@ -240,7 +240,7 @@
   {
     "id": 15,
     "product_title": "Asus ZenBook 14",
-    "product_image": "https://example.com/zenbook14.jpg",
+    "product_image": "https://i.ibb.co.com/MRJkmYf/Asus-Zen-Book-14.jpg",
     "category": "Laptops",
     "price": 799,
     "description": "Sleek and portable laptop with a powerful processor.",
@@ -257,7 +257,7 @@
   {
     "id": 16,
     "product_title": "Microsoft Surface Laptop 5",
-    "product_image": "https://example.com/surfacelaptop5.jpg",
+    "product_image": "https://i.ibb.co.com/XJcg5rt/Microsoft-Surface-Laptop-5.webp",
     "category": "Laptops",
     "price": 1499,
     "description": "Stylish and lightweight laptop with a vibrant display.",
@@ -274,7 +274,7 @@
   {
     "id": 17,
     "product_title": "Huawei MateBook X Pro",
-    "product_image": "https://example.com/matebookxpro.jpg",
+    "product_image": "https://i.ibb.co.com/CKWNqx2/Huawei-Mate-Book-X-Pro.jpg",
     "category": "Laptops",
     "price": 1199,
     "description": "High-performance laptop with a stunning display.",
@@ -291,7 +291,7 @@
   {
     "id": 18,
     "product_title": "Samsung Galaxy Buds Pro",
-    "product_image": "https://example.com/galaxybudspro.jpg",
+    "product_image": "https://i.ibb.co.com/n35k6Xn/Samsung-Galaxy-Buds-Pro.webp",
     "category": "Headphones",
     "price": 199,
     "description": "High-quality earbuds with active noise cancellation.",
@@ -308,7 +308,7 @@
   {
     "id": 19,
     "product_title": "Sony WF-1000XM4",
-    "product_image": "https://example.com/wf1000xm4.jpg",
+    "product_image": "https://i.ibb.co.com/h1cWwHF/Sony-WF-1000-XM4.jpg",
     "category": "Headphones",
     "price": 279,
     "description": "Noise-canceling wireless earbuds with exceptional sound quality.",
@@ -325,7 +325,7 @@
   {
     "id": 20,
     "product_title": "Google Pixel Buds A-Series",
-    "product_image": "https://example.com/pixelbudsa.jpg",
+    "product_image": "https://i.ibb.co.com/18784NH/Google-Pixel-Buds-A-Series.jpg",
     "category": "Headphones",
     "price": 99,
     "description": "Affordable wireless earbuds with clear sound and a comfortable fit.",
@@ -342,7 +342,7 @@
   {
     "id": 21,
     "product_title": "HP Envy 15",
-    "product_image": "https://example.com/envy15.jpg",
+    "product_image": "https://i.ibb.co.com/k9qCGKF/HP-Envy-15.jpg",
     "category": "Laptops",
     "price": 1399,
     "description": "Powerful laptop with impressive graphics capabilities.",
@@ -359,7 +359,7 @@
   {
     "id": 22,
     "product_title": "Razer Blade 15",
-    "product_image": "https://example.com/razerblade15.jpg",
+    "product_image": "https://i.ibb.co.com/FXbsNbt/Razer-Blade-15.webp",
     "category": "Laptops",
     "price": 1999,
     "description": "High-performance gaming laptop with advanced graphics.",

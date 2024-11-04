@@ -1,0 +1,57 @@
+[
+  {
+    "id": 0,
+    "category": "All Gadgets",
+    "slug": "all-gadgets"
+  },
+  {
+    "id": 1,
+    "category": "Smartphones",
+    "slug": "smartphones"
+  },
+  {
+    "id": 2,
+    "category": "Laptops",
+    "slug": "laptops"
+  },
+  {
+    "id": 3,
+    "category": "Headphones",
+    "slug": "headphones"
+  },
+  {
+    "id": 4,
+    "category": "Tablets",
+    "slug": "tablets"
+  },
+  {
+    "id": 5,
+    "category": "Smartwatches",
+    "slug": "smartwatches"
+  },
+  {
+    "id": 6,
+    "category": "Gaming Consoles",
+    "slug": "gaming-consoles"
+  },
+  {
+    "id": 7,
+    "category": "Cameras",
+    "slug": "cameras"
+  },
+  {
+    "id": 8,
+    "category": "Drones",
+    "slug": "drones"
+  },
+  {
+    "id": 9,
+    "category": "Home Appliances",
+    "slug": "home-appliances"
+  },
+  {
+    "id": 10,
+    "category": "Computer Accessories",
+    "slug": "computer-accessories"
+  }
+]
