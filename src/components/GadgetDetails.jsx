@@ -1,15 +1,18 @@
+/* eslint-disable no-unused-vars */
 import { useEffect, useState } from "react";
 import { CiStar } from "react-icons/ci";
 import { FaRegHeart } from "react-icons/fa";
 import { IoMdCart } from "react-icons/io";
 import { useLoaderData, useParams } from "react-router-dom";
-import { addCarts, getAllCarts } from "../utility";
+import { addCarts, addWishlist, getAllCarts, getAllWishlist } from "../utility";
 
 const GadgetDetails = () => {
   const { id } = useParams();
   const gadgetData = useLoaderData();
   const [gadget, setGadget] = useState({});
-  const [isCart, setIsCart] = useState(false);
+  const [isCart, setIsCart] = useState();
+
+  const [isWishlist, setIsWishlist] = useState(false);
 
   useEffect(() => {
     const singleGadget = gadgetData.find(
@@ -17,9 +20,14 @@ const GadgetDetails = () => {
     );
     setGadget(singleGadget);
     const cart = getAllCarts();
-    const isExist = cart.find((item) => item.id == singleGadget.id);
-    if (isExist) {
+    const isExistCart = cart.find((item) => item.id == singleGadget.id);
+    if (isExistCart) {
       setIsCart(true);
+    }
+    const wishlist = getAllWishlist();
+    const isExistWishlist = wishlist.find((item) => item.id == singleGadget.id);
+    if (isExistWishlist) {
+      setIsWishlist(true);
     }
   }, [gadgetData, id]);
   const {
@@ -34,7 +42,10 @@ const GadgetDetails = () => {
 
   const handleCart = (gadget) => {
     addCarts(gadget);
-    setIsCart(true);
+  };
+  const handleWishlist = (gadget) => {
+    addWishlist(gadget);
+    setIsWishlist(true);
   };
 
   return (
@@ -115,19 +126,22 @@ const GadgetDetails = () => {
                 />
                 <span className="ml-2">{rating}</span>
               </div>
-              <div
-                onClick={() => handleCart(gadget)}
-                disabled={isCart}
-                className="mt-5 flex gap-7"
-              >
-                <button className="btn font-bold text-lg bg-[#9538E2] text-white hover:bg-[#9538E2] rounded-full">
+              <div className="mt-5 flex gap-7">
+                <button
+                  onClick={() => handleCart(gadget)}
+                  className="btn font-bold text-lg bg-[#9538E2] text-white hover:bg-[#9538E2] rounded-full"
+                >
                   Add to Card{" "}
                   <span className="text-2xl">
                     <IoMdCart />
                   </span>
                 </button>
 
-                <button className="btn btn-circle text-3xl bg-white hover:bg-white font-bold rounded-full pr-2 p-2 border-2 border-[#11101048]">
+                <button
+                  onClick={() => handleWishlist(gadget)}
+                  disabled={isWishlist}
+                  className="btn btn-circle text-3xl bg-white hover:bg-white font-bold rounded-full pr-2 p-2 border-2 border-[#11101048]"
+                >
                   <FaRegHeart />
                 </button>
               </div>

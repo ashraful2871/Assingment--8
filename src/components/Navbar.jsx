@@ -1,12 +1,41 @@
-import { Link, NavLink } from "react-router-dom";
+import { useEffect, useState } from "react";
+import { FaRegHeart } from "react-icons/fa";
+import { IoMdCart } from "react-icons/io";
+import { Link, NavLink, useLocation } from "react-router-dom";
 
 const Navbar = () => {
+  const [cartCountdown, setCartCountdown] = useState(0);
+  const [wishlistCountdown, setWishlistCountdown] = useState();
+
+  const location = useLocation();
+  const isHomePage = location.pathname === "/";
+
+  useEffect(() => {
+    const newCount = () => {
+      const GadgetsCard = JSON.parse(localStorage.getItem("gadgets")) || [];
+      const gadgetsWishlist =
+        JSON.parse(localStorage.getItem("wishlist")) || [];
+      setCartCountdown(GadgetsCard.length);
+      setWishlistCountdown(gadgetsWishlist.length);
+    };
+    newCount();
+
+    window.addEventListener("storage", newCount);
+
+    return () => {
+      window.addEventListener("storage", newCount);
+    };
+  }, [cartCountdown]);
   const links = (
     <>
       <li>
         <NavLink
           className={({ isActive }) =>
-            `font-bold ${isActive ? "text-[#9538E2]" : "hover:text-[#9538E2]"}`
+            `font-bold btn hover:bg-[#9538E2] ${
+              isActive
+                ? "text-white bg-[#9538E2]"
+                : "hover:bg-[#9538E2] hover:text-white bg-white"
+            }`
           }
           to="/"
         >
@@ -16,7 +45,11 @@ const Navbar = () => {
       <li>
         <NavLink
           className={({ isActive }) =>
-            `font-bold ${isActive ? "text-[#9538E2]" : "hover:text-[#9538E2]"}`
+            `font-bold btn hover:bg-[#9538E2] ${
+              isActive
+                ? "text-white bg-[#9538E2]"
+                : "hover:bg-[#9538E2] hover:text-white bg-white"
+            }`
           }
           to="/statistics"
         >
@@ -26,7 +59,11 @@ const Navbar = () => {
       <li>
         <NavLink
           className={({ isActive }) =>
-            `font-bold ${isActive ? "text-[#9538E2]" : "hover:text-[#9538E2]"}`
+            `font-bold btn hover:bg-[#9538E2] ${
+              isActive
+                ? "text-white bg-[#9538E2]"
+                : "hover:bg-[#9538E2] hover:text-white bg-white"
+            }`
           }
           to="/dashboard"
         >
@@ -37,7 +74,13 @@ const Navbar = () => {
   );
 
   return (
-    <div className="navbar bg-base-100 mt-7">
+    <div
+      className={`navbar mt-7 px-52 z-10 ${
+        isHomePage
+          ? "bg-[#9538E2] top-10 absolute z-50 pt-6 text-white rounded-t-3xl"
+          : "bg-white"
+      }`}
+    >
       <div className="navbar-start">
         <div className="dropdown">
           <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
@@ -68,10 +111,38 @@ const Navbar = () => {
         </Link>
       </div>
       <div className="navbar-center hidden lg:flex">
-        <ul className="menu menu-horizontal px-1">{links}</ul>
+        <ul className="gap-5 menu-horizontal px-1">{links}</ul>
       </div>
-      <div className="navbar-end">
-        <a className="btn">Button</a>
+      <div className="navbar-end gap-7">
+        <a
+          className={`btn-circle btn-outline btn text-2xl hover:bg-[#9538E2] ${
+            isHomePage ? "bg-white" : ""
+          }`}
+        >
+          <IoMdCart />{" "}
+          <span
+            className={`absolute top-[2%] right-[15%] ${
+              isHomePage ? "text-white" : ""
+            }`}
+          >
+            {cartCountdown}
+          </span>
+        </a>
+
+        <a
+          className={`btn-circle btn-outline btn text-2xl hover:bg-[#9538E2] ${
+            isHomePage ? "bg-white" : ""
+          }`}
+        >
+          <FaRegHeart />{" "}
+          <span
+            className={`absolute top-[2%] right-[11%] ${
+              isHomePage ? "text-white" : ""
+            }`}
+          >
+            {wishlistCountdown}
+          </span>
+        </a>
       </div>
     </div>
   );
