@@ -1,5 +1,3 @@
-/* eslint-disable no-unused-vars */
-/* eslint-disable no-const-assign */
 import { FaSortAmountUp } from "react-icons/fa";
 import { useEffect, useState } from "react";
 import {
@@ -76,7 +74,6 @@ const Dashboard = () => {
     const addNewCart = getAllCarts();
     setGadget(addNewCart);
     setDisable(addNewCart.length === 0);
-    // setIsCart(true);
   };
   return (
     <>
@@ -84,7 +81,6 @@ const Dashboard = () => {
         <title>Dashboard | Gadget Haven</title>
       </Helmet>
 
-      {/* Open the modal using document.getElementById('ID').showModal() method */}
       <dialog id="my_modal_5" className="modal modal-bottom sm:modal-middle">
         <div className="modal-box">
           <div className="flex justify-center items-center mb-5">
@@ -98,7 +94,6 @@ const Dashboard = () => {
 
           <div className="modal-action">
             <form method="dialog" className="w-full">
-              {/* if there is a button in form, it will close the modal */}
               <button
                 onClick={() => clickHandleCloseModal()}
                 className="btn font-bold text-lg text-[#9538E2] border-2 border-[#9538E2] hover:text-white hover:bg-[#9538E2] w-full rounded-full"

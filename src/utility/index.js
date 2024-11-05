@@ -5,7 +5,6 @@ const newStorageEvent = () => {
 };
 
 // get all gadget from local storage
-
 const getAllCarts = () => {
   const all = localStorage.getItem("gadgets");
   if (all) {
@@ -15,8 +14,8 @@ const getAllCarts = () => {
     return [];
   }
 };
-//add to gadget local storage
 
+//add to gadget local storage
 const addCarts = (gadget) => {
   const cart = getAllCarts();
   const isExist = cart.find((item) => item.id == gadget.id);
@@ -29,8 +28,8 @@ const addCarts = (gadget) => {
   newStorageEvent();
   toast.success("Successfully add to cart");
 };
-// remove from local storage
 
+// remove from local storage
 const removeCart = (id) => {
   const cart = getAllCarts();
   const remaining = cart.filter((gadget) => gadget.id != id);
@@ -51,7 +50,6 @@ const getAllWishlist = () => {
 };
 
 //add wishlist to local storage
-
 const addWishlist = (gadget) => {
   const wishlist = getAllWishlist();
   const isExist = wishlist.find((item) => item.id == gadget.id);
@@ -63,8 +61,8 @@ const addWishlist = (gadget) => {
   newStorageEvent();
   toast.success("Successfully add to wishlist");
 };
-// remove from local storage
 
+// remove from local storage
 const removeWishlist = (id) => {
   const wishlist = getAllWishlist();
   const remaining = wishlist.filter((gadget) => gadget.id != id);

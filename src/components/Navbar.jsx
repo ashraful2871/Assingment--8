@@ -70,6 +70,20 @@ const Navbar = () => {
           Dashboard
         </NavLink>
       </li>
+      <li>
+        <NavLink
+          className={({ isActive }) =>
+            `font-bold btn hover:bg-[#9538E2] ${
+              isActive
+                ? "text-white bg-[#9538E2]"
+                : "hover:bg-[#9538E2] hover:text-white bg-white"
+            }`
+          }
+          to="/review"
+        >
+          Review
+        </NavLink>
+      </li>
     </>
   );
 

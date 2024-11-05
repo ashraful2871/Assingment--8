@@ -372,5 +372,22 @@
     ],
     "availability": true,
     "rating": 4.8
+  },
+  {
+    "id": 23,
+    "product_title": "Oppo Find X6 Pro",
+    "product_image": "https://i.ibb.co.com/YNrW5Ks/Oppo-Find-X6-Pro-Review-5.jpg",
+    "category": "Smartphones",
+    "price": 1099,
+    "description": "Oppo's flagship smartphone with exceptional camera performance.",
+    "specification": [
+      "6.82-inch AMOLED display",
+      "Snapdragon 8 Gen 2 processor",
+      "Triple-camera system (50MP Wide, 50MP Ultra-wide, 50MP Telephoto)",
+      "SuperVOOC fast charging",
+      "Up to 512GB storage"
+    ],
+    "availability": true,
+    "rating": 4.6
   }
 ]

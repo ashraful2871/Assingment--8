@@ -1,6 +1,7 @@
 import { useLoaderData, useParams } from "react-router-dom";
 import Card from "./Card";
 import { useEffect, useState } from "react";
+import errorPage from "../assets/error.webp";
 
 const GadgetsCard = () => {
   const gadgetData = useLoaderData();
@@ -27,7 +28,12 @@ const GadgetsCard = () => {
           </div>
         ))
       ) : (
-        <p>No gadget found</p>
+        <div className="flex justify-center flex-col col-span-3 items-center min-h-[660px] bg-white rounded-3xl shadow-2xl">
+          <div className="mb-10">
+            <img src={errorPage} alt="" />
+          </div>
+          <p className="text-4xl font-bold">no gadget found</p>
+        </div>
       )}
     </div>
   );
