@@ -1,6 +1,6 @@
 # Gadget Haven
 
-1. Project Live Link:
+1. Project Live Link: https://lucent-sherbet-86728a.netlify.app/
 2. Requirement Document Link: https://github.com/ProgrammingHero1/B10-A8-gadget-heaven/blob/main/Batch-10_Assignment-08-.pdf
 3. React concepts used in the project:
    (a). components
