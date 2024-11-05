@@ -147,7 +147,8 @@ const Navbar = () => {
           </span>
         </button>
 
-        <a
+        <button
+          onClick={handleCart}
           className={`btn-circle btn-outline btn text-2xl hover:bg-[#9538E2] relative ${
             isHomePage ? "bg-white" : ""
           }`}
@@ -160,7 +161,7 @@ const Navbar = () => {
           >
             {wishlistCountdown}
           </span>
-        </a>
+        </button>
       </div>
     </div>
   );
