@@ -115,14 +115,14 @@ const Navbar = () => {
       </div>
       <div className="navbar-end gap-7">
         <a
-          className={`btn-circle btn-outline btn text-2xl hover:bg-[#9538E2] ${
+          className={`btn-circle btn-outline btn text-2xl hover:bg-[#9538E2] relative ${
             isHomePage ? "bg-white" : ""
           }`}
         >
           <IoMdCart />{" "}
           <span
-            className={`absolute top-[2%] right-[15%] ${
-              isHomePage ? "text-white" : ""
+            className={`absolute -top-[50%] right-[15%] ${
+              isHomePage ? "text-white" : "text-black"
             }`}
           >
             {cartCountdown}
@@ -130,14 +130,14 @@ const Navbar = () => {
         </a>
 
         <a
-          className={`btn-circle btn-outline btn text-2xl hover:bg-[#9538E2] ${
+          className={`btn-circle btn-outline btn text-2xl hover:bg-[#9538E2] relative ${
             isHomePage ? "bg-white" : ""
           }`}
         >
           <FaRegHeart />{" "}
           <span
-            className={`absolute top-[2%] right-[11%] ${
-              isHomePage ? "text-white" : ""
+            className={`absolute -top-[50%] right-[11%] ${
+              isHomePage ? "text-white" : "text-black"
             }`}
           >
             {wishlistCountdown}
