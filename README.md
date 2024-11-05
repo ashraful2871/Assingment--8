@@ -12,8 +12,8 @@
 4. Managing data: Local Storage
 5. 5 features of project:
 
-   (a). Category Type Gadget Show. When click Category type button.
-   (b). when click "view Details" then change route and redirect to view details page.
-   (c). clicking add to card then gadget sdd to the card section on dashboard.
-   (d). when gadget added to card then show indicator count in navbar. count in cart icon.
-   (e). when click heart icon then the gadget added to wishlist section after click heart icon then heart icon will disabled.
+   (a). Category Type Gadget Show. When click Category type button. <br/>
+   (b). when click "view Details" then change route and redirect to view details page.<br/>
+   (c). clicking add to card then gadget sdd to the card section on dashboard.<br/>
+   (d). when gadget added to card then show indicator count in navbar. count in cart icon.<br/>
+   (e). when click heart icon then the gadget added to wishlist section after click heart icon then heart icon will disabled.<br/>
