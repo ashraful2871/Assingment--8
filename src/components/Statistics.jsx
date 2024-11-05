@@ -18,7 +18,7 @@ const Statistics = () => {
   return (
     <>
       <Helmet>
-        <title>review | Gadget Haven</title>
+        <title>Statistics | Gadget Haven</title>
       </Helmet>
 
       <div className="bg-[#F6F6F6] pb-20">

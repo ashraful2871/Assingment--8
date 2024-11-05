@@ -1,15 +1,18 @@
 import { useEffect, useState } from "react";
 import { FaRegHeart } from "react-icons/fa";
 import { IoMdCart } from "react-icons/io";
-import { Link, NavLink, useLocation } from "react-router-dom";
+import { Link, NavLink, useLocation, useNavigate } from "react-router-dom";
 
 const Navbar = () => {
   const [cartCountdown, setCartCountdown] = useState(0);
   const [wishlistCountdown, setWishlistCountdown] = useState();
-
   const location = useLocation();
+  const navigate = useNavigate();
   const isHomePage = location.pathname === "/";
 
+  const handleCart = () => {
+    navigate("/dashboard");
+  };
   useEffect(() => {
     const newCount = () => {
       const GadgetsCard = JSON.parse(localStorage.getItem("gadgets")) || [];
@@ -128,7 +131,8 @@ const Navbar = () => {
         <ul className="gap-5 menu-horizontal px-1">{links}</ul>
       </div>
       <div className="navbar-end gap-7">
-        <a
+        <button
+          onClick={handleCart}
           className={`btn-circle btn-outline btn text-2xl hover:bg-[#9538E2] relative ${
             isHomePage ? "bg-white" : ""
           }`}
@@ -141,7 +145,7 @@ const Navbar = () => {
           >
             {cartCountdown}
           </span>
-        </a>
+        </button>
 
         <a
           className={`btn-circle btn-outline btn text-2xl hover:bg-[#9538E2] relative ${
